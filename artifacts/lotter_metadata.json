@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Lottery/Contract.sol": "lotter"
+			"Lottery/Lottery.sol": "lotter"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -32,7 +32,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"Lottery/Contract.sol": {
+		"Lottery/Lottery.sol": {
 			"keccak256": "0xf6f4885faf42d1ab4af9502e49363d018729618327b4dccfd58b2b2eea5ea5f1",
 			"license": "MIT",
 			"urls": [
