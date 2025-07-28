@@ -1,0 +1,38 @@
+# 🎰 Solidity Lottery Smart Contract
+
+This is a basic **Ethereum lottery system** written in Solidity and developed using the **Remix IDE**. Participants can enter the lottery by sending exactly **2 Ether**. The lottery is controlled by a **manager**, and once a round is completed, the contract is reset for the next one.
+
+---
+
+## 📌 Features
+
+- ✅ Participants must have a valid **Ethereum wallet**.
+- 💸 Each participant can send Ether **multiple times**, but only in amounts of **2 Ether** per transaction.
+- 📝 When a participant sends 2 Ether, their **address is automatically registered** in the lottery pool.
+- 👨‍💼 The **manager** (contract deployer) has full control:
+  - Can **pick a winner**
+  - Can **reset the contract** for a new round
+- 🔁 The contract is **reset** after each round is completed and a winner is selected.
+
+---
+
+## 🛠️ How to Use (in Remix)
+
+1. Go to [Remix IDE](https://remix.ethereum.org)
+2. Create a new file: `Lottery.sol`
+3. Paste the contract code (see below)
+4. Compile the contract using the **Solidity compiler**
+5. Deploy using the **Injected Provider** (e.g., MetaMask) or JavaScript VM
+6. Use the provided functions to participate, pick a winner, and reset the contract
+
+---
+
+## 📜 Rules
+
+- 📥 Each transaction must be exactly `2 ether`.
+- ⛔ Any transaction not equal to 2 ether should be rejected.
+- 🧑‍💼 Only the **manager** can trigger sensitive functions like picking the winner or resetting the game.
+- 🔄 All participants are cleared after a round ends.
+
+---
+

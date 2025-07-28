@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Lottery/Lottery.sol": "lotter"
+			"Lottery/Lottery.sol": "Lotter"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"Lottery/Lottery.sol": {
-			"keccak256": "0xf7090bcf3e3fc217bff2fe16b9426eca4f08ff794644bb4d08501f772247ea62",
+			"keccak256": "0x7ae168e9ffbfe8dd1d378160b4e986cea42f508a0a6d1ab89b47262f700088e7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2d13235787770652722b809346adbd40b860917bb84fef2c51c5b1cb9e1c384a",
-				"dweb:/ipfs/QmQKEeGDNfZsdcR4QdiBxj7paKPeBnKiEvx9PhxGVJ9mQq"
+				"bzz-raw://3b5e8233442a1f210aedf717bb52d6459ee45799b73045aa87949126f6a7d094",
+				"dweb:/ipfs/Qme3m3Wan2cdmk4U7KEoPPhqVMwF5ePLJWs6yxThFPH3tK"
 			]
 		}
 	},
