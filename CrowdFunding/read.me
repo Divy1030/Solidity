@@ -1,0 +1,33 @@
+# 🤝 Crowdfunding Smart Contract (with Contributor Governance)
+
+This Solidity-based crowdfunding smart contract enables a manager to create a campaign with a funding **target**, a **deadline**, and a **minimum contribution** amount. Contributors can fund the campaign, but the **manager cannot withdraw funds** unless at least **50% of contributors approve** the request.
+
+---
+
+## 🧠 How It Works
+
+### 🧑‍💼 Manager (Deployer)
+- Sets the **target amount**, **deadline**, and **minimum contribution**.
+- Can create **payment requests** (where funds are intended to be used).
+- **Cannot withdraw funds** without approval from contributors.
+
+### 👥 Contributors
+- Anyone can become a contributor by sending **at least the minimum contribution** before the deadline.
+- Each valid contributor is **registered** and can:
+  - Approve or reject spending requests made by the manager.
+
+### 🔒 Governance
+- For any **withdrawal request**, **50% or more contributors** must approve it.
+- Ensures **decentralized fund control**, preventing misuse.
+
+---
+
+## 📦 Features
+
+- ⏳ Deadline-based funding (only accepts contributions before the deadline).
+- 🎯 Target-based goal (manager cannot withdraw funds until the target is met).
+- 🧾 Minimum contribution enforced.
+- 🗳️ Contributor voting for fund withdrawal.
+- 🔐 Manager cannot take funds without community consent.
+- 🔄 Refunds to contributors if the deadline passes and the target is not met.
+
