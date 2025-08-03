@@ -1,0 +1,28 @@
+# 🛡️ Multi-Sig Wallet Smart Contract
+
+This project implements a simple **Multi-Signature Wallet** using Solidity and deployed via **Remix IDE**. The wallet requires multiple approvals from predefined owners to execute a transaction, enhancing security for fund transfers.
+
+---
+
+## 📌 What is a Multi-Sig Wallet?
+
+A Multi-Signature (Multi-Sig) Wallet is a smart contract where multiple owners must approve a transaction before it is executed. This increases the trust and security of handling funds on-chain.
+
+---
+
+## 📽️ Workflow Overview
+
+- A **Sender** submits a transaction (amount, receiver).
+- The transaction is stored and marked as pending.
+- Multiple **Owners** (predefined addresses) approve the transaction.
+- Once the required number of approvals is met, the funds are sent to the **Receiver**.
+
+---
+
+## ⚙️ Features
+
+- Add multiple owners during contract deployment
+- Submit transaction (destination address + amount + data)
+- Approve/Confirm pending transactions
+- Execute once threshold confirmations are met
+- Revoke confirmations before execution
