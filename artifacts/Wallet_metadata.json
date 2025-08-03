@@ -1,0 +1,152 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address[]",
+						"name": "_owners",
+						"type": "address[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_NumberofConfirmation",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "isApproved",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "owners",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "submitTranscation",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "transactions",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "executed",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Wallet/Wallet.sol": "Wallet"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Wallet/Wallet.sol": {
+			"keccak256": "0xb9f6983a6615baa32c715b23ab987eb43b206ec46c6a952127f02ce6dbcae0fe",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5391d8b34fd1ed96fc48e9fbcbc47f98b5eda90f91e828c5338b8b800c209b1e",
+				"dweb:/ipfs/QmUz1TBZ6hUt4JxUtixbDjzgZQ8xv2gMHoo9Emby6dTwDE"
+			]
+		}
+	},
+	"version": 1
+}
