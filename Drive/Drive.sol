@@ -39,10 +39,10 @@ contract Drive{
         }
     }
 
-    function display(address user) external view returns (string[] memory){
-        require(ownership[user][msg.sender],"You are not allowed to access the data");
-        return value[user];
-    }
+  function display(address _user) external view returns(string[] memory){
+      require(_user==msg.sender || ownership[_user][msg.sender],"You don't have access");
+      return value[_user];
+  }
 
     function shareAccess() public view returns(Access[] memory){
         return accessList[msg.sender];
